@@ -355,12 +355,10 @@ export const projects: Project[] = [
     ),
     stack: ['React', 'TypeScript', 'Vite', 'React Router', 'Python', 'ETL', 'JSON', 'GitHub Pages'],
     metrics: [{ value: '0', label: l('серверов при работе сайта', 'servers at runtime') }],
-    // TODO: добавьте сюда ссылки на демо и репозиторий, например:
-    // links: [
-    //   { label: l('Демо', 'Live demo'), href: 'https://rustychka.github.io/deposit-tracker/' },
-    //   { label: l('Код на GitHub', 'Code on GitHub'), href: 'https://github.com/RUSTYCHKA/deposit-tracker' },
-    // ],
-    links: [],
+    links: [
+      { label: l('Демо', 'Live demo'), href: 'https://rustychka.github.io/deposit-tracker/' },
+      { label: l('Код на GitHub', 'Code on GitHub'), href: 'https://github.com/RUSTYCHKA/deposit-tracker' },
+    ],
     closedSource: false,
     screenshots: [],
     blocks: [
